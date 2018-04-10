@@ -2,14 +2,14 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router'
+import Mobile from './Mobile'
 
 Vue.config.productionTip = false
-
+var width = document.documentElement.clientWidth
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+  components: { App, Mobile },
+  template: width > 500 ? '<App/>' : '<Mobile/>'
+  // render: h => h(width > 500 ? App : Mobile)
 })
