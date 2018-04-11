@@ -44,7 +44,7 @@ html {
 }
 /* 太高了 */
 .styleEditor {
-  height: 45vh;
+  height: 40vh;
 }
 /* 代码高亮 */
 .token.selector{ color: rgb(133,153,0); }
@@ -63,9 +63,9 @@ html{
 /* 接下来我给自己准备一个编辑器 */
 .resumeEditor{
   position: fixed;
-  top: 50%; left: 0;
+  top: 45%; left: 0;
   padding: .5em;  margin: 2.5vh;
-  width: 95vw; height: 45vh;
+  width: 95vw; height: 50vh;
   border: 1px solid;
   background: white; color: #222;
   overflow: auto;
@@ -82,7 +82,7 @@ html{
           `
 /* 再对 HTML 加点样式 */
 .resumeEditor{
-  padding: 2em;
+  padding: 0 2em;
 }
 .resumeEditor h2{
   display: inline-block;
@@ -149,7 +149,6 @@ html{
 * [我的个人网站](http://liangyonggang.cn)
 
 > 如果你对我感兴趣，联系我给我发邮件呗。yonggangliang@sina.cn
-
 `
       }
     },
