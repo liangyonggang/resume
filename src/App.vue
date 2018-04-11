@@ -109,7 +109,7 @@ html{
   margin-right: .5em;
 }
 .resumeEditor blockquote {
-  margin: 1em;
+  margin: 1em 1em 1em 0;
   padding: .5em;
   background: #ddd;
 }
