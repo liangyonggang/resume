@@ -20,7 +20,7 @@ export default {
       fullStyle: [
         `/*
 * Inspired by http://strml.net/
-* 大家好，我是Claus
+* 大家好，我是klaus
 * 发现一个动态的简历很炫啊，我也做一个吧。
 */
 
@@ -118,13 +118,13 @@ html{
       fullMarkdown: `梁永刚
 ----
 
-资深前端工程师，嗯，嗯，对，资深。
+高级前端工程师。
 
 技能
 ----
 
 * 前端开发
-* 吹牛
+* 跑马
 * ...
 
 工作经历
